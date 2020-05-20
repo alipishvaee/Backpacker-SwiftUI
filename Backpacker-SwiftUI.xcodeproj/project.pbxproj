@@ -15,6 +15,8 @@
 		9B483DC2247571FC00B60137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B483DC0247571FC00B60137 /* LaunchScreen.storyboard */; };
 		9B483DCD247571FC00B60137 /* Backpacker_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B483DCC247571FC00B60137 /* Backpacker_SwiftUITests.swift */; };
 		9B483DD8247571FC00B60137 /* Backpacker_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B483DD7247571FC00B60137 /* Backpacker_SwiftUIUITests.swift */; };
+		9B483DE62475766600B60137 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B483DE52475766600B60137 /* SearchView.swift */; };
+		9B8951702475AE1E002A4CE6 /* SearchBottomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89516F2475AE1E002A4CE6 /* SearchBottomPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9B483DD3247571FC00B60137 /* Backpacker-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backpacker-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B483DD7247571FC00B60137 /* Backpacker_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backpacker_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		9B483DD9247571FC00B60137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B483DE52475766600B60137 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9B89516F2475AE1E002A4CE6 /* SearchBottomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBottomPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		9B483DB4247571F700B60137 /* Backpacker-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9B89516F2475AE1E002A4CE6 /* SearchBottomPage.swift */,
+				9B483DE52475766600B60137 /* SearchView.swift */,
 				9B483DB5247571F700B60137 /* AppDelegate.swift */,
 				9B483DB7247571F700B60137 /* SceneDelegate.swift */,
 				9B483DB9247571F700B60137 /* ContentView.swift */,
@@ -267,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8951702475AE1E002A4CE6 /* SearchBottomPage.swift in Sources */,
+				9B483DE62475766600B60137 /* SearchView.swift in Sources */,
 				9B483DB6247571F700B60137 /* AppDelegate.swift in Sources */,
 				9B483DB8247571F700B60137 /* SceneDelegate.swift in Sources */,
 				9B483DBA247571F700B60137 /* ContentView.swift in Sources */,
